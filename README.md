@@ -59,7 +59,7 @@ return Simple_MT
 ```python
 import sys
 import json
-from MT_split_tool import split_mt
+from split_MT import split_mt
 body = sys.stdin.read()
 inputs = json.loads(body)['inputs']
 split_mt()
